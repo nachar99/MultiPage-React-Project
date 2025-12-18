@@ -8,7 +8,7 @@ export const concepts = [
     description:
       "HTML (HyperText Markup Language) is the standard language used to structure and organize content on the web, such as text, images, links, and forms. It defines the basic building blocks of a webpage that browsers can display.",
     status: "Completed",
-    image: "/assets/HTML5_logo.png",
+    image: `${import.meta.env.BASE_URL}assets/HTML5_logo.png`,
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const concepts = [
     description:
       "CSS (Cascading Style Sheets) is used to control the visual appearance of a webpage, including layout, colors, fonts, and spacing. It works alongside HTML to make web content look polished and responsive.",
     status: "Completed",
-    image: "/assets/CSS_logo.png",
+    image: `${import.meta.env.BASE_URL}assets/CSS_logo.png`,
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ export const concepts = [
     description:
       "JavaScript is a programming language that adds interactivity and dynamic behavior to webpages, such as handling user actions, updating content, and communicating with servers. It allows websites to respond to users in real time.",
     status: "Completed",
-    image: "/assets/JS_logo.png",
+    image: `${import.meta.env.BASE_URL}assets/JS_logo.png`,
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ export const concepts = [
     description:
       "React is a JavaScript library used to build interactive user interfaces by breaking the UI into reusable components. It efficiently updates the page when data changes, making complex applications faster and easier to manage.",
     status: "In-Progress",
-    image: "/assets/React-icon.svg.png",
+    image: `${import.meta.env.BASE_URL}assets/React-icon.svg.png`,
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ export const concepts = [
     description:
       "Git is a version control system that tracks changes in code and helps developers collaborate safely. GitHub is a platform that hosts Git repositories online, making it easier to share code, manage projects, and work with others.",
     status: "In-Progress",
-    image: "/assets/git&github_logo.png",
+    image: `${import.meta.env.BASE_URL}assets/git&github_logo.png`,
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ export const concepts = [
     description:
       "Node.js is a runtime environment that allows JavaScript to run outside the browser, typically on a server. It’s commonly used to build fast, scalable backend services and APIs.",
     status: "In-Progress",
-    image: "/assets/nodejs_log.png",
+    image: `${import.meta.env.BASE_URL}assets/nodejs_log.png`,
   },
   {
     id: 7,
@@ -62,7 +62,7 @@ export const concepts = [
     description:
       "Express.js is a lightweight Node.js framework used to build web servers and APIs with simpler routing and request handling.",
     status: "Not-Started",
-    image: "/assets/expressjs_logo.png",
+    image: `${import.meta.env.BASE_URL}assets/expressjs_logo.png`,
   },
   {
     id: 8,
@@ -71,7 +71,7 @@ export const concepts = [
     description:
       "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents instead of tables.",
     status: "Not-Started",
-    image: "/assets/mongoDB_logo.jpg",
+    image: `${import.meta.env.BASE_URL}assets/mongoDB_logo.jpg`,
   },
   {
     id: 9,
@@ -80,7 +80,7 @@ export const concepts = [
     description:
       "REST APIs are interfaces that allow different applications to communicate over HTTP using standard methods like GET, POST, PUT, and DELETE.",
     status: "Not-Started",
-    image: "/assets/restapis_logo.png",
+    image: `${import.meta.env.BASE_URL}assets/restapis_logo.png`,
   },
   {
     id: 10,
@@ -89,7 +89,7 @@ export const concepts = [
     description:
       "Authentication & Authorization ensure users are who they claim to be and control what actions or resources they can access, Web Security involves protecting applications from common attacks such as XSS, CSRF, and SQL injection.",
     status: "Not-Started",
-    image: "/assets/cybersecurity_logo.jpg",
+    image: `${import.meta.env.BASE_URL}assets/cybersecurity_logo.jpg`,
   },
   {
     id: 11,
@@ -98,7 +98,7 @@ export const concepts = [
     description:
       "Full Stack Integration & Deployment & DevOps Basics involve connecting the frontend, backend, and database into a complete application, then deploying it to production using tools and workflows that automate builds, testing, and releases while keeping systems reliable and scalable.",
     status: "Not-Started",
-    image: "/assets/full_stack_logo.jpg",
+    image: `${import.meta.env.BASE_URL}assets/full_stack_logo.jpg`,
   },
 ];
 
